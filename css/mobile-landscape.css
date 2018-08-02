@@ -1,0 +1,225 @@
+/* Mobile Landscape  */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px), 
+only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	footer, header, video, #home, #portfolio, 
+	.portfolio-item, #about, #contact, #impressum, #impressum2 { 
+	
+	}
+
+	footer {
+		display: block;
+		float: left;
+		position: relative;
+	}
+	
+	footer ul {
+		left: 0px;
+	}
+	
+	footer hr {
+		left: 0px;
+		width: 100%;
+    	width: calc(100% - 20px);
+	}
+	
+	html {
+		height: auto;
+		min-height: 100%;
+	}
+
+	
+	body {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		height: auto;
+		min-height: 100%;
+	}
+	
+	header {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 80px;
+		float: left;
+		z-index: 100;
+	}
+
+	header img {
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 150px;
+		height: auto;
+	}
+
+	header nav {
+		display: none;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		background-color: white;
+		width: 100%;
+		z-index: 1;
+		padding-bottom: 10px;
+	}
+	
+	header nav a {
+		cursor: pointer;
+		font-size: 1.2em;
+	}
+	
+	#nav-icon {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font-size: 60px;
+		line-height: 60px;
+		text-decoration: none;
+		cursor: pointer;
+		z-index: 200;
+	}
+	
+	dl {
+		display: block;
+		float: none;
+	}
+
+			
+	section {
+		display: block;
+		clear: left;
+		position: relative;
+		width: 100%;
+		margin: 0px 0px 100px 0px;
+		padding: 0px 0px 0px 0px;
+		top: auto;
+	}
+	
+	header hr {
+		position: absolute;
+		top: 80px;
+		left: 10px;
+		width: 100%;
+    	width: calc(100% - 20px);
+	}
+	
+	#container {
+		padding: 0 10px 0 10px;
+	}
+
+	#home {
+		margin-top: 100px;
+		height: auto;
+	}
+	
+	#home, #about, #skills, #portfolio, #portfolio-item, #clients, #contact, #impressum, #impressum2 {
+		width: 100%;
+	}
+
+	#about h1 {
+		display: block;
+	}
+
+
+	#about article {
+    width: 31%;
+    width: calc(33% - 12px);
+	}
+	
+	#about article img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+		margin-right: 12px;
+	}
+	
+	#home img {
+		width: 100%;
+		height: auto;
+		margin: 0 0 20px 0;
+		padding: 0;
+	}
+	
+	#portfolio {
+		margin: 0 0 0 0;
+	}
+	
+	#portfolio ul {
+		display: none;
+	}
+		
+	.portfolio-item {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-bottom: 60px;
+	}
+
+	.portfolio-container {
+		width: 100%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+
+	.portfolio-container iframe {
+
+	}
+
+	.portfolio-image {
+		width: 100%;
+		height: auto;
+		margin-bottom: 0px;
+	}
+	
+	.portfolio-info {
+	}
+	
+	.video-container {
+		display: none;
+		position: relative; 
+		padding-bottom: 56.25%; 
+		height: 0; 
+		overflow: hidden; 
+		max-width: 100%; 
+		height: auto;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		height: 100%;
+	}
+		
+	.video-poster {
+		left: 0;
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	
+	.video-link {
+		left: 0;
+		width: 100%;
+		position: absolute;
+		background: url('../images/allgemeines/icon_play.png') no-repeat top left;
+		background-size: 100% auto;
+		z-index: 2;
+		opacity: 0.7;
+		display: block;		
+	}
+	
+	#contact {
+		padding-bottom: 100px;
+	}
+
+}
