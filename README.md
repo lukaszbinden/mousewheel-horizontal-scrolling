@@ -8,4 +8,4 @@ jQuery based solution to enable/disable scrolling horizontally using the mousewh
 * See https://github.com/jquery/jquery-mousewheel
 
 # Example
-See http://kinema-film.ch/
+See http://kinema-film.ch/ for an example use.
